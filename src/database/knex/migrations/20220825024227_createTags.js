@@ -1,4 +1,4 @@
-exports.up = knex => knex.schema.createTable("tags", table => {
+exports.up = knex => knex.schema.createTable("movie_tags", table => {
   //auto increment field
   table.increments("id")
   //verifying blank name 

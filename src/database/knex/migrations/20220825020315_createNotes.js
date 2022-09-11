@@ -1,10 +1,13 @@
-exports.up = knex => knex.schema.createTable("notes", table => {
+exports.up = knex => knex.schema.createTable("movie_notes", table => {
   //auto increment field
   table.increments("id")
+  //text fields
   table.text("title")
   table.text("description")
-  //reference
+  //reference field
   table.integer("user_id").references("id").inTable("users")
+  //int field
+  table.integer("rating")
 
 
   //time stamp field
