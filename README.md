@@ -4,10 +4,10 @@
 </h1>
 
 <h3 align="center">
-  Basic API
+  Rocket Movies
 </h3>
 
-<p align="center">Basic api made in explorer course</p>
+<p align="center">Challenge application in Node js made in explorer course</p>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wenblack/api">
@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-about-the-project">About the challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -44,10 +44,26 @@
   </a>
 
 </p>
-## 👨🏻‍💻 About the project
+## 💻 Sobre o desafio
 
-This is the a basic Api made in explorer course of RocketSeat school.
+E aí, o que achou de criar a sua primeira aplicação em Node.js? Massa demais, né? 💜
 
+Bora praticar mais um pouquinho tudo o que foi aprendido nesse Stage! 
+E olha que teve conteúdo, hein? 👀
+
+A ideia agora é criar uma aplicação em Node.js onde o usuário cadastra um filme, preenche com algumas informações (nome, descrição, nota) e cria tags relacionadas a ele.
+
+### **Observações:**
+
+Ao subir o seu projeto no GitHub, lembre-se que a pasta **node_modules** não precisa ser enviada, já que, como dito em aula, você consegue facilmente criá-la no seu projeto usando `npm install`.
+
+Para isso, basta criar um arquivo chamado **.gitignore** na raiz do seu projeto e adicionar o texto *node_modules* nele.
+
+Alguns detalhes aprendidos em aula que seria interessante você adicionar no seu desafio:
+
+- Criptografia de senhas;
+- Validação de e-mail;
+- Aplicar o cascade para garantir que uma tag será excluída caso o usuário opte por excluir a nota.
 ## 🚀 Technologies
 
 Technologies that I used to develop this api
